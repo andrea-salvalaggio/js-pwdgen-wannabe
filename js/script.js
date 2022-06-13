@@ -12,3 +12,8 @@ document.getElementById("user-surname").innerHTML = userSurname;
 const userFavColor = prompt("Inserisci il tuo colore preferito");
 console.log(userFavColor);
 document.getElementById("user-favcolor").innerHTML = userFavColor;
+
+// Password generata
+const userPwd = userName + userSurname + userFavColor + 22;
+console.log(userPwd);
+document.getElementById("user-pwd").innerHTML = userPwd;
